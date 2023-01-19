@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Chalkboard SE;
+    src: url(Chalkboard\ SE.otf);
+}
+body{
+    font-family: Chalkboard SE;
+    background: url(newyear5.jpg);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h1,p{
+    text-shadow: 0 0 15px white;
+}
+p{
+    font-size: 18px;
+}
+.container{
+    position: relative;
+    margin-top: 300px;
+}
+#password{
+    font-family: inherit;
+    font-size: 17px;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #F2888B;
+    border-radius: 20px;
+    width: 500px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.btn{
+    font-size: 20px;
+    font-family: inherit;
+    border: none;
+    border-radius: 20px;
+    background-color: #F5AC27;
+    color: black;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 7px 6px 28px 1px #FFD84B
+}
+.btn:active {
+    transform: scale(0.98); 
+    box-shadow: 3px 2px 22px 1px #CC9902;
+}

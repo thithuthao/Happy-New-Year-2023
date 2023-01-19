@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Pesta Tahun Baru;
+    src: url(PestaTahunBaru.ttf);
+}
+body{
+    font-family: Pesta Tahun Baru;
+    background-image: url(happynewyear2.gif);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+}
+h1{
+    font-size: 93px;
+    text-shadow: 0 0 1000px black;
+    background: rgb(0,0,0, .6)
+}
+.btn{
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+    padding: 6px 12px;
+    background-image: linear-gradient(to right, lightpink, lightblue);
+    border: 10px solid;
+    border-radius: 10px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right bottom, red, blue);
+    display: block;
+    box-shadow: 7px 6px 28px 1px lightblue
+    }
+    .btn:active {
+        transform: scale(0.98); 
+        box-shadow: 3px 2px 22px 1px blue;
+
+}

@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Chalkboard SE;
+    src: url(Chalkboard\ SE.otf);
+}
+@font-face {
+    font-family: Chewy;
+    src: url(Chewy.ttf);
+}
+@font-face {
+    font-family: Happy Monkey;
+    src: url(HappyMonkey.ttf);
+}
+body{
+    margin-top: 300px;
+    text-align: center;
+    font-family: Chalkboard SE;
+    background: url(newyear5.jpg);
+}
+h1{
+    font-size: 70px;
+    text-shadow: 0 0 15px white;
+}
+.btn1, .btn2{
+    font-size: 30px;
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background-color: #F5AC27;
+    color: black;
+}
+.btn1{
+    margin-right: 50px;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 46px;
+    box-shadow: 7px 6px 28px 1px #FFD84B
+}
+.btn1:active {
+    transform: scale(0.98); 
+    box-shadow: 3px 2px 22px 1px #CC9902;
+
+}
+.btn2{
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 7px 6px 28px 1px #FFD84B
+}
+.btn2:active {
+    transform: scale(0.98); 
+    box-shadow: 3px 2px 22px 1px #CC9902;
+
+}
